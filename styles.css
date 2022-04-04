@@ -1,0 +1,66 @@
+body{
+    background-color: #FFF4EC;
+    font-family: 'Poppins';
+    margin: 0px 120px 120px 120px ;
+}
+.navigation{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.left{
+    text-align: left;
+}
+/* .container-1{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+} */
+.item-1{
+    /* justify-content: start; */
+    font-weight: bold;
+    font-size: 44px;
+    display:block;
+}
+.sub-text{
+    font-size: 16px;
+    color: #737B7D;
+    font-weight: lighter;
+}
+.item-2{
+    width:  489px !important;
+    height: 457px;
+    border: 1px #FFF4EC;
+    background-color: #C98686;
+    opacity: 19%;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.item-4{
+    width:  489px !important;
+    height: 803px;
+    border: 1px #FFF4EC;
+    background-color: #C98686;
+    opacity: 19%;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
