@@ -29,6 +29,7 @@ body{
 .item-2{
     width:  489px !important;
     height: 457px;
+    position: relative;
     border: 1px #FFF4EC;
     background-color: #C98686;
     opacity: 19%;
@@ -44,6 +45,80 @@ body{
     border-radius: 30px;
     margin-top: 30px;
 }
+.coffee {
+    position: absolute;
+
+width: 219px;
+height: 203px;
+right:0;
+bottom: -32px;
+z-index: 3;
+
+}
+ .churn {
+    position: absolute;
+    width: 199.34px;
+    height: 200px;
+    top: -75px;
+    right: 130px;
+    /* object-position: 1009.16px 80px ; */ 
+    
+}
+
+.cushion {
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    top: 187px;
+    left: 210px;
+    /* object-position: 922px 233px ; */
+    
+    
+}
+
+.machine {
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    top: 210px;
+    left: -39px;
+    /* object-position: 693.3px 315.17px ; */
+    
+    
+}
+
+.tape{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    top: 56px;
+    right: -9px;
+    /* object-position: 1187.25px 92px ; */
+    
+    
+}
+
+.tractor{
+    position:absolute;
+    width: 200px;
+    height: 199.34px;
+    bottom: -55px;
+    left: 20px;
+    /* object-position: 817px 489px ; */
+    
+    
+}
+
+.nike {
+    position: absolute;
+    width: 200px;
+    height: 203px;
+    top: -56px;
+    left: -52px;
+    /* object-position: 249.22px 195.28px ; */
+    
+    
+} 
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
